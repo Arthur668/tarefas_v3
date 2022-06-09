@@ -1,0 +1,95 @@
+body{background-color: #FFB6C1
+    ;
+margin:0;
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+ header{
+     background-color: #EE82EE;
+     padding: 2rem;
+ }
+
+ header h1{color: black;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2{
+    color: black;
+    
+}
+nav{
+    background-color: transparent;
+    padding: 1rem;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    background-color: 	#DDA0DD
+    ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+li a:hover{
+    color:#FF00FF
+
+}
+ul li{
+    padding: 1rem;
+    list-style: none;
+}
+
+nav ul{
+    padding:0;
+    display:flex;
+}
+
+.container{
+    background-color:#DDA0DD ;
+    max-width: 50%;
+    margin-top: 2rem;
+    margin: auto;
+    padding: 1rem;
+    display:flex;
+    flex-direction: column;
+    min-width: 20rem;
+}
+.container h2{
+text-align: center;
+color:black;
+border-bottom: 2px solid black;
+padding-bottom: 0.5rem;
+}
+.container input{
+    margin-bottom: 0.5rem;
+    border: 2px solid black;
+    padding:0.5rem;
+    border-radius: 5px;
+    outline:none;
+}
+.container input:hover{
+    background-color:#DDA0DD
+}
+
+.container button{
+    background-color:#DDA0DD ;
+    color: DDA0DD;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 25px;
+    cursor:pointer;
+}
+
+.container button:hover{
+    background-color:#EE82EE ;
+}
+
+footer{
+    margin-top: 2rem;
+    border-top: 2px solid black;
+ 
+}
+td{
+    text-align: center;
+}

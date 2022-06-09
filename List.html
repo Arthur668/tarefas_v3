@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Tarefas</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body onload="list()">
+    <header>
+        <h1>Gerenciamento de Tarefas</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.hmtl">Nova Tarefa</a></li>
+            <li><a href="./List.html">Lista de Tarefas</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Lista de Tarefas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Tarefa</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="tr-tarefa">
+            </tbody>
+        </table>
+
+    </div>
+    <footer>
+        <ul>
+            <li>SESI / SENAI</li>
+            <li>SC - 401, Bairro Saco Grande, Florianopolis</li>
+            <li>CEP 8032-005</li>
+        </ul>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
